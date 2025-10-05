@@ -40,8 +40,10 @@ body {
 .feed {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   padding: 10px;
+  width: 60%;
+  flex: 1;
 }
 
 /* --- Descendant Selector --- */
@@ -51,15 +53,15 @@ body {
 
 /* --- Child Selector --- */
 .feed > .post {
-  background-color: #fff;
-  width: 60%;
-  margin: 10px;
+  background-color: #d0d0d0;
+  width: 100%;
+  margin: 10px 0;
   padding: 10px;
   border-radius: 10px;
 }
 
 /* --- Adjacent Sibling Selector --- */
-.post-header + img {
+.post-header + .post-image img {
   margin-top: 10px;
 }
 
@@ -80,7 +82,7 @@ img ~ p {
 }
 
 .like {
-  text-align: right;
+  text-align: left;
   margin-top: 5px;
 }
 
@@ -96,11 +98,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 80vh;
 }
 
 .form {
-  background-color: #fff;
+  background-color: #cecece;
   padding: 20px;
   border-radius: 10px;
   display: flex;
@@ -128,13 +130,35 @@ footer {
 /* --- Flexbox for Responsiveness --- */
 @media (max-width: 600px) {
   .feed > .post {
-    width: 90%;
+    width: 100%;
   }
   
   .navbar {
     flex-direction: column;
   }
+
+  .feed {
+    width: 100%;
+  }
+
+  .page-wrapper {
+    flex-direction: column;
+    gap: 25px;
+    padding: 5px;
+  }
+
+  .leftside, .rightside {
+    width: 100%;
+    min-height: 40px;
+  }
+
+  .center-box {
+    flex-direction: column;
+    height: auto;
+  }
+
 }
+
 form {
   display: flex;
   flex-direction: column;
@@ -148,4 +172,71 @@ form input {
   margin-bottom: 10px;
 }
 
+.form-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.form-row label{
+    width: auto;
+}
+
+.form-row textarea, .form-row input{
+    width: 70%;
+}
+
+/* index */
+.post-image img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 50px;
+    padding: 10px;
+}
+
+.leftside, .rightside {
+    width: 20%;
+    background-color: #ccc;
+    min-height: 100vh;
+    border-radius: 10px;
+}
+
+/* post */
+.post-header {
+    display: flex;
+    align-items: center;
+}
+
+.post-header .date {
+    margin-left: auto;
+}
+
+.post-header .username {
+    margin-left: 10px;
+}
+
+/* file button */
+.file-input {
+    display: none;
+}
+
+.file-button {
+    display: inline-block;
+    background-color: #888787;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.file-button:hover {
+    background-color: #5e5d5d;
+}
 
