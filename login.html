@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function validateLogin() {
+      const email = document.getElementById('email').value.trim();
+      const username = document.getElementById('username').value.trim();
+      if (!email || !username) {
+        alert('Please fill in both fields.');
+        return false;
+      }
+      window.location.href = "index.html";
+      return false;
+    }
+  </script>
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="addPost.html">Add Post</a>
+    <a href="login.html">Login</a>
+  </nav>
+
+  <main class="form-container">
+    <h1>Login</h1>
+    <form onsubmit="return validateLogin()">
+      <label>Email:</label>
+      <input type="email" id="email" required>
+      <label>Username:</label>
+      <input type="text" id="username" required>
+      <button type="submit">Login</button>
+    </form>
+  </main>
+</body>
+</html>
 
