@@ -130,8 +130,22 @@ footer {
   .feed > .post {
     width: 90%;
   }
+  
   .navbar {
     flex-direction: column;
   }
 }
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+}
+
+form input {
+  margin-bottom: 10px;
+}
+
 
