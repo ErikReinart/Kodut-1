@@ -23,7 +23,13 @@
       <a id="home" href="index.html">Home</a>
       <a href="addPost.html">Add Post</a>
     </div>
-    <img class="profile" src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="User">
+    <div class="nav-right">
+        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" onclick="dropdownMenu()" alt="profile" class="profile">
+        <div id="dropdownMenu" class="dropdown">
+            <p>John Doe</p>
+            <p>john.doe@ut.ee</p>
+            <p>logout</p>
+        </div>
   </nav>
 
   <div class="center-box">
@@ -43,5 +49,7 @@
     <a href="#" class="small-link">Forget password</a>
     </div>
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
