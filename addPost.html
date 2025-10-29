@@ -11,9 +11,12 @@
         <a href="index.html" id="home">Home</a>
     </div>
     <div class="nav-right">
-      <a href="login.html" id="Go to login">
-        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="profile" class="profile">   
-      </a>
+        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" onclick="dropdownMenu()" alt="profile" class="profile">
+        <div id="dropdownMenu" class="dropdown">
+            <p>John Doe</p>
+            <p>john.doe@ut.ee</p>
+            <p>logout</p>
+        </div>
     </div>
   </header>
 
@@ -34,5 +37,8 @@
       <button type="submit">Create post</button>
     </form>
   </main>
+
+  <script src="script.js"></script>
+
 </body>
 </html>
