@@ -1,0 +1,20 @@
+{
+  "posts": {
+    "1": {
+      "owner": "uuid/string username",
+      "ownerProfilePicture": "optional string url",
+      "image": "optional string url",
+      "likeCount": "int",
+      "timeCreated": "datetime"
+      
+    },
+    "2": {
+      "owner": "uuid/string username",
+      "ownerProfilePicture": "optional string url",
+      "image": "optional string url",
+      "likeCount": "int",
+      "timeCreated": "datetime"
+      
+    }
+  }
+}
