@@ -65,7 +65,7 @@ function createPost(post) {
   }
 
   const likesP = document.createElement("p");
-  text.textContent = `❤️ ${post.likeCount} meeldimist`;
+  likesP.textContent = `❤️ ${post.likeCount} meeldimist`;
 
   const likeDiv = document.createElement("div");
   likeDiv.className = "like";
@@ -82,8 +82,8 @@ async function renderFeed() {
   if (!feed) return;
 
   try {
-    const posts = await fetchPosts();
-      const posts = Array.isArray(data) ? data : data.posts;
+    const data = await fetchPosts();
+    const posts = Array.isArray(data) ? data : data.posts;
 
     if (!Array.isArray(posts)) throw new Error("JSON Error");
     posts.sort((a, b) => new Date(b.timeCreated) - new Date(a.timeCreated));
@@ -94,11 +94,3 @@ async function renderFeed() {
 }
 
 renderFeed();
-
-
-
-
-
-
-
-
