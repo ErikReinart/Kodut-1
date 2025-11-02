@@ -38,12 +38,15 @@ function createPost(post) {
   profileImg.src = post.ownerProfilePicture || "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAAAVVb0fAAAAHElEQVQokWP8////fwYiAAgjGJgGAwaGgwAAAJ8EA1FVzMSUAAAAAElFTkSuQmCC";
   profileImg.alt = "profile";
   profileImg.className = "profile";
+    
   const username = document.createElement("span");
   username.className = "username";
   username.textContent = post.owner;
+    
   const date = document.createElement("span");
   date.className = "date";
   date.textContent = formatDate(post.timeCreated);
+    
   header.append(profileImg, username, date);
 
   const imgDiv = document.createElement("div");
@@ -61,7 +64,7 @@ function createPost(post) {
     textP.textContent = post.text;
   }
 
-  const text = document.createElement("p");
+  const likesP = document.createElement("p");
   text.textContent = `❤️ ${post.likeCount} meeldimist`;
 
   const likeDiv = document.createElement("div");
@@ -70,7 +73,7 @@ function createPost(post) {
   btn.textContent = "👍";
   likeDiv.appendChild(btn);
 
-  postDiv.append(header, imgDiv, text, likeDiv);
+  postDiv.append(header, imgDiv, textP,likesP, likeDiv);
   return postDiv;
 }
 
@@ -91,6 +94,7 @@ async function renderFeed() {
 }
 
 renderFeed();
+
 
 
 
