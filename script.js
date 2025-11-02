@@ -80,6 +80,9 @@ async function renderFeed() {
 
   try {
     const posts = await fetchPosts();
+      const posts = Array.isArray(data) ? data : data.posts;
+
+    if (!Array.isArray(posts)) throw new Error("JSON Error");
     posts.sort((a, b) => new Date(b.timeCreated) - new Date(a.timeCreated));
     posts.forEach(p => feed.appendChild(createPost(p)));
   } catch (err) {
@@ -88,6 +91,7 @@ async function renderFeed() {
 }
 
 renderFeed();
+
 
 
 
