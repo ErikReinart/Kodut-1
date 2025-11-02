@@ -1,20 +1,73 @@
-{
-  "posts": {
-    "1": {
-      "owner": "uuid/string username",
-      "ownerProfilePicture": "optional string url",
-      "image": "optional string url",
-      "likeCount": "int",
-      "timeCreated": "datetime"
-      
-    },
-    "2": {
-      "owner": "uuid/string username",
-      "ownerProfilePicture": "optional string url",
-      "image": "optional string url",
-      "likeCount": "int",
-      "timeCreated": "datetime"
-      
-    }
+[
+  {
+    "owner": "Erik Reinart",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "image": "https://picsum.photos/id/1015/800/450",
+    "likeCount": 25,
+    "timeCreated": "2025-10-01T08:30:00Z"
+  },
+  {
+    "owner": "Mia Mets",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/219/219969.png",
+    "image": "https://picsum.photos/id/1025/800/450",
+    "likeCount": 14,
+    "timeCreated": "2025-10-02T10:10:00Z"
+  },
+  {
+    "owner": "Karl Kask",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/847/847969.png",
+    "image": "https://picsum.photos/id/1035/800/450",
+    "likeCount": 31,
+    "timeCreated": "2025-10-03T11:15:00Z"
+  },
+  {
+    "owner": "Liis Lill",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/194/194938.png",
+    "image": "https://picsum.photos/id/1045/800/450",
+    "likeCount": 9,
+    "timeCreated": "2025-10-04T15:22:00Z"
+  },
+  {
+    "owner": "Tarmo Tam",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/236/236831.png",
+    "image": "https://picsum.photos/id/1055/800/450",
+    "likeCount": 18,
+    "timeCreated": "2025-10-05T19:40:00Z"
+  },
+  {
+    "owner": "Laura Linn",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/201/201634.png",
+    "image": "https://picsum.photos/id/1065/800/450",
+    "likeCount": 27,
+    "timeCreated": "2025-10-06T09:05:00Z"
+  },
+  {
+    "owner": "Rasmus Rant",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/206/206853.png",
+    "image": "https://picsum.photos/id/1075/800/450",
+    "likeCount": 21,
+    "timeCreated": "2025-10-07T13:50:00Z"
+  },
+  {
+    "owner": "Ingrid Ilves",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/2922/2922561.png",
+    "image": "https://picsum.photos/id/1085/800/450",
+    "likeCount": 40,
+    "timeCreated": "2025-10-08T08:00:00Z"
+  },
+  {
+    "owner": "Marko Mänd",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/4825/4825038.png",
+    "image": "https://picsum.photos/id/1095/800/450",
+    "likeCount": 13,
+    "timeCreated": "2025-10-09T12:33:00Z"
+  },
+  {
+    "owner": "Anni Aas",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/4140/4140048.png",
+    "image": "https://picsum.photos/id/1105/800/450",
+    "likeCount": 34,
+    "timeCreated": "2025-10-10T21:15:00Z"
   }
-}
+]
+
