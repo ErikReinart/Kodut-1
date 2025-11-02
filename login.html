@@ -21,7 +21,7 @@
   <nav class="navbar">
     <div class="nav-left">
       <a id="home" href="index.html">Home</a>
-      <a href="addPost.html">Add Post</a>
+      <a id="add" href="addPost.html">Add Post</a>
     </div>
     <div class="nav-right">
         <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" onclick="dropdownMenu()" alt="profile" class="profile">
@@ -35,15 +35,14 @@
   <div class="center-box">
     <div class="form">
       <h2>Welcome to PostIt</h2>
-      <a href="register.html">Create an account</a>
-      <p>or Please log in</p>
+      <a href="register.html" class="small-link">Create an account</a>
+      <p>or</p>
+      <p>Please log in</p>
 
     <form onsubmit="return validateLogin()">
-      <label for="email">Email:</label>
       <input type="email" id="email" placeholder="Email" required>
-      <label for="password">Password:</label>
       <input type="password" id="password" placeholder="Password" required>
-      <button type="submit">Login</button>
+      <button type="submit">Log in</button>
     </form>
       
     <a href="#" class="small-link">Forget password</a>
