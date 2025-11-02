@@ -35,7 +35,7 @@ function createPost(post) {
   const header = document.createElement("div");
   header.className = "post-header";
   const profileImg = document.createElement("img");
-  profileImg.src = post.ownerProfilePicture;
+  profileImg.src = post.ownerProfilePicture || "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAAAVVb0fAAAAHElEQVQokWP8////fwYiAAgjGJgGAwaGgwAAAJ8EA1FVzMSUAAAAAElFTkSuQmCC";
   profileImg.alt = "profile";
   profileImg.className = "profile";
   const username = document.createElement("span");
@@ -53,6 +53,12 @@ function createPost(post) {
     img.src = post.image;
     img.alt = "post image";
     imgDiv.appendChild(img);
+  }
+
+  const textP = document.createElement("p");
+  textP.className = "post-text";
+  if (post.text && post.text.trim() !== "") {
+    textP.textContent = post.text;
   }
 
   const text = document.createElement("p");
@@ -82,7 +88,8 @@ async function renderFeed() {
 }
 
 renderFeed();
-renderFeed();
+
+
 
 
 
