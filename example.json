@@ -1,20 +1,76 @@
-{
-  "posts": {
-    "1": {
-      "owner": "uuid/string username",
-      "ownerProfilePicture": "optional string url",
-      "image": "optional string url",
-      "likeCount": "int",
-      "timeCreated": "datetime"
-      
-    },
-    "2": {
-      "owner": "uuid/string username",
-      "ownerProfilePicture": "optional string url",
-      "image": "optional string url",
-      "likeCount": "int",
-      "timeCreated": "datetime"
-      
-    }
+[
+  {
+    "owner": "Erik Reinart",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "image": "https://picsum.photos/id/1015/400/250",
+    "likeCount": 12,
+    "timeCreated": "2025-10-01T08:30:00Z"
+  },
+  {
+    "owner": "Mia Mets",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "text": "Kas keegi teab, mis kell seminar algab?",
+    "likeCount": 8,
+    "timeCreated": "2025-10-02T10:10:00Z"
+  },
+  {
+    "owner": "Karl Kask",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "image": "https://picsum.photos/id/1025/400/250",
+    "text": "Lõbus päev koeraga metsas",
+    "likeCount": 16,
+    "timeCreated": "2025-10-03T11:15:00Z"
+  },
+  {
+    "owner": "Liis Lill",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "text": "Lõpuks kodutöö tehtud!",
+    "likeCount": 5,
+    "timeCreated": "2025-10-04T15:22:00Z"
+  },
+  {
+    "owner": "Tarmo Tamm",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "image": "https://picsum.photos/id/1050/400/250",
+    "text": "Beautiful view",
+    "likeCount": 22,
+    "timeCreated": "2025-10-05T19:40:00Z"
+  },
+  {
+    "owner": "Laura Linn",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "image": "https://picsum.photos/id/1062/400/250",
+    "text": "Doggy",
+    "likeCount": 19,
+    "timeCreated": "2025-10-06T09:05:00Z"
+  },
+  {
+    "owner": "Rasmus Rant",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "image": "https://picsum.photos/id/1074/400/250",
+    "likeCount": 10,
+    "timeCreated": "2025-10-07T13:50:00Z"
+  },
+  {
+    "owner": "Ingrid Ilves",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "image": "https://picsum.photos/id/1084/400/250",
+    "likeCount": 40,
+    "timeCreated": "2025-10-08T08:00:00Z"
+  },
+  {
+    "owner": "Marko Mänd",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "image": "https://picsum.photos/id/109/400/250",
+    "text": "Õhtune jalgrattasõit 🌆",
+    "likeCount": 13,
+    "timeCreated": "2025-10-09T12:33:00Z"
+  },
+  {
+    "owner": "Anni Aas",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "image": "https://picsum.photos/id/110/400/250",
+    "likeCount": 34,
+    "timeCreated": "2025-10-10T21:15:00Z"
   }
-}
+]
