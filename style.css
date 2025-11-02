@@ -9,12 +9,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ccc;
+  background-color: #b6b6b6;
   padding: 10px;
 }
 
 /* --- ID Selector --- */
-#home {
+#home, #add {
   font-weight: bold;
 }
 
@@ -91,7 +91,7 @@ img ~ p {
 }
 
 footer {
-  background-color: #ccc;
+  background-color: #b6b6b6;
   text-align: center;
   padding: 10px;
   margin-top: 10px;
@@ -104,6 +104,33 @@ footer {
   align-items: center;
   height: 80vh;
 }
+
+.center-box .form {
+  text-align: center;
+}
+
+.center-box p {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.center-box .small-link {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.center-box .form input {
+  margin: 10px auto;
+  max-width: 125px;
+  padding: 15px;
+}
+
+.center-box .form button {
+  margin-top: 15px;
+}
+
+
 
 .form {
   background-color: #cecece;
@@ -120,6 +147,8 @@ footer {
 
 .form button {
   margin-top: 15px;
+  margin-right: 90px;
+  margin-left: 90px;
   background-color: #204080;
   color: white;
   border: none;
@@ -207,7 +236,7 @@ form input {
 
 .leftside, .rightside {
     width: 20%;
-    background-color: #ccc;
+    background-color: #b6b6b6;
     min-height: 100vh;
     border-radius: 10px;
 }
@@ -247,10 +276,12 @@ form input {
 /* dropdown menu */
 .dropdown {
   display: none;
-  padding: 0px 10px 0px 10px;
   position: absolute;
+  padding: 0px 30px 0px 30px;
   right: 0;
-  background-color: rgb(192, 188, 188)
+  top: 125%;
+  border-radius: 10px;
+  background-color: #c5c5c5;
 }
 
 .show {
