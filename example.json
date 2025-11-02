@@ -1,77 +1,81 @@
 [
   {
     "owner": "Erik Reinart",
-    "ownerProfilePicture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAAAVVb0fAAAARUlEQVQokWP4////fwY8gBEIxsDAgDEhIMgBxKQIMRCDmU0hglEDMcDYkCE5GCqCQGgkAyKQXhFiEYgkA8BkAQxng6Y6AAAAAElFTkSuQmCC",
-    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAV1BMVEX///8AAABwcHDY2NjFxcW6urrk5OTb29vPz8/k5OSjo6Pb29vU1NSAgIB/f3/Nzc3q6urZ2dnx8fHc3Nynp6fBwcHd3d1hYWGdnZ1mZmY6OjrQzBPWAAAAHklEQVQY02NgQAOMMFAAQDA0MDCgY0BjgB8jHAAAJKwAOYHqTGsAAAAASUVORK5CYII=",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "image": "https://picsum.photos/id/1015/400/250",
     "text": "Sügisene Tartu!",
     "likeCount": 12,
     "timeCreated": "2025-10-01T08:30:00Z"
   },
   {
     "owner": "Mia Mets",
-    "ownerProfilePicture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAAAVVb0fAAAARUlEQVQokWP4////fwY8gBEIxsDAgDEhIMgBxKQIMRCDmU0hglEDMcDYkCE5GCqCQGgkAyKQXhFiEYgkA8BkAQxng6Y6AAAAAElFTkSuQmCC",
-    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAARVBMVEX////MzMyoqKj4+Pi4uLi6urqtra2hoaGUlJTY2NjT09O2trbKysrDw8PZ2dmRkZFzc3O0tLSXl5evr6/CwsL19fXZ2dnGkB6DAAAAH0lEQVQY02NgQAKMBoZGBkYwYGBiYwYQZ6GAjUwAACGgAARfFSGNQAAAABJRU5ErkJggg==",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "image": "https://picsum.photos/id/1003/400/250",
     "text": "Kas keegi teab, mis kell seminar algab?",
     "likeCount": 8,
     "timeCreated": "2025-10-02T10:10:00Z"
   },
   {
     "owner": "Karl Kask",
-    "ownerProfilePicture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAAAVVb0fAAAARUlEQVQokWP4////fwY8gBEIxsDAgDEhIMgBxKQIMRCDmU0hglEDMcDYkCE5GCqCQGgkAyKQXhFiEYgkA8BkAQxng6Y6AAAAAElFTkSuQmCC",
-    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAOVBMVEX////MzMzk5OT39/fFxcWjo6OAgIB5eXnU1NTR0dHOzs7Y2NhuamqEhIS4uLiioqLe3t7Yc3VDAAAAIUlEQVQY02NgQAKMBgYGBhAwMDIwMDDgYoAYjEMgAACXgAAjIkl1bAAAAABJRU5ErkJggg==",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "image": "https://picsum.photos/id/1025/400/250",
+    "text": "Hommikune jalutuskäik Toomemäel 🌳",
     "likeCount": 16,
     "timeCreated": "2025-10-03T11:15:00Z"
   },
   {
     "owner": "Liis Lill",
-    "ownerProfilePicture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAAAVVb0fAAAARUlEQVQokWP4////fwY8gBEIxsDAgDEhIMgBxKQIMRCDmU0hglEDMcDYkCE5GCqCQGgkAyKQXhFiEYgkA8BkAQxng6Y6AAAAAElFTkSuQmCC",
-    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAQlBMVEX////MzMzy8vL39/fb29vQ0NC+vr6Tk5OLi4uYmJjCwsLr6+uoqKiysrJdXV2WlpbS0tKRkZGIiIh4eHiCgAxeAAAAG0lEQVQY02NgQAKMBkYGBgYGhjAwYGAwAAD1AAAn6AfoCAAAAABJRU5ErkJggg==",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "image": "https://picsum.photos/id/1043/400/250",
     "text": "Lõpuks kodutöö tehtud!",
     "likeCount": 5,
     "timeCreated": "2025-10-04T15:22:00Z"
   },
   {
     "owner": "Tarmo Tamm",
-    "ownerProfilePicture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAAAVVb0fAAAARUlEQVQokWP4////fwY8gBEIxsDAgDEhIMgBxKQIMRCDmU0hglEDMcDYkCE5GCqCQGgkAyKQXhFiEYgkA8BkAQxng6Y6AAAAAElFTkSuQmCC",
-    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAARVBMVEX////MzMyoqKj4+PiYmJi3t7eTk5OdnZ3R0dG2trbBwcHR0dGvr6+goKCUlJS7u7u6urqjo6O4l93xAAAAGUlEQVQY02NgQAKMBgYGBgYGBiYGBgYAwA8AAJULAIcPO4QAAAAASUVORK5CYII=",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "image": "https://picsum.photos/id/1050/400/250",
     "text": "Vihmane päev, ideaalne koodimiseks ☕",
     "likeCount": 22,
     "timeCreated": "2025-10-05T19:40:00Z"
   },
   {
     "owner": "Laura Linn",
-    "ownerProfilePicture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAAAVVb0fAAAARUlEQVQokWP4////fwY8gBEIxsDAgDEhIMgBxKQIMRCDmU0hglEDMcDYkCE5GCqCQGgkAyKQXhFiEYgkA8BkAQxng6Y6AAAAAElFTkSuQmCC",
-    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAQFBMVEX////MzMyoqKj4+PiAgICFhYW3t7eYmJjS0tLOzs7Y2Ni9vb2Tk5OBgYGHh4eXl5e0tLSjo6OMjIyusgxqAAAAGUlEQVQY02NgQAKMBgYGBgYGhiAwAADGAAAnUwAmCVzCkgAAAABJRU5ErkJggg==",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "image": "https://picsum.photos/id/1062/400/250",
+    "text": "Hommikukohv ja päike rõdul ☀️",
     "likeCount": 19,
     "timeCreated": "2025-10-06T09:05:00Z"
   },
   {
     "owner": "Rasmus Rant",
-    "ownerProfilePicture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAAAVVb0fAAAARUlEQVQokWP4////fwY8gBEIxsDAgDEhIMgBxKQIMRCDmU0hglEDMcDYkCE5GCqCQGgkAyKQXhFiEYgkA8BkAQxng6Y6AAAAAElFTkSuQmCC",
-    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAQFBMVEX////MzMyoqKj4+PiAgICFhYW3t7eYmJjS0tLOzs7Y2Ni9vb2Tk5OBgYGHh4eXl5e0tLSjo6OMjIyusgxqAAAAGUlEQVQY02NgQAKMBgYGBgYGhiAwAADGAAAnUwAmCVzCkgAAAABJRU5ErkJggg==",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "image": "https://picsum.photos/id/1074/400/250",
     "text": "Koeraga jalutamine on parim mõttepaus!",
     "likeCount": 10,
     "timeCreated": "2025-10-07T13:50:00Z"
   },
   {
     "owner": "Ingrid Ilves",
-    "ownerProfilePicture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAAAVVb0fAAAARUlEQVQokWP4////fwY8gBEIxsDAgDEhIMgBxKQIMRCDmU0hglEDMcDYkCE5GCqCQGgkAyKQXhFiEYgkA8BkAQxng6Y6AAAAAElFTkSuQmCC",
-    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAARVBMVEX////MzMyoqKj4+PiYmJi3t7eTk5OdnZ3R0dG2trbBwcHR0dGvr6+goKCUlJS7u7u6urqjo6O4l93xAAAAGUlEQVQY02NgQAKMBgYGBgYGBiYGBgYAwA8AAJULAIcPO4QAAAAASUVORK5CYII=",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "image": "https://picsum.photos/id/1084/400/250",
     "text": "Kohv ja kood – ideaalne kombo!",
     "likeCount": 40,
     "timeCreated": "2025-10-08T08:00:00Z"
   },
   {
     "owner": "Marko Mänd",
-    "ownerProfilePicture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAAAVVb0fAAAARUlEQVQokWP4////fwY8gBEIxsDAgDEhIMgBxKQIMRCDmU0hglEDMcDYkCE5GCqCQGgkAyKQXhFiEYgkA8BkAQxng6Y6AAAAAElFTkSuQmCC",
-    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAQlBMVEX////MzMzy8vL39/fb29vQ0NC+vr6Tk5OLi4uYmJjCwsLr6+uoqKiysrJdXV2WlpbS0tKRkZGIiIh4eHiCgAxeAAAAG0lEQVQY02NgQAKMBkYGBgYGhjAwYGAwAAD1AAAn6AfoCAAAAABJRU5ErkJggg==",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "image": "https://picsum.photos/id/109/400/250",
+    "text": "Õhtune jalgrattasõit 🌆",
     "likeCount": 13,
     "timeCreated": "2025-10-09T12:33:00Z"
   },
   {
     "owner": "Anni Aas",
-    "ownerProfilePicture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAAAVVb0fAAAARUlEQVQokWP4////fwY8gBEIxsDAgDEhIMgBxKQIMRCDmU0hglEDMcDYkCE5GCqCQGgkAyKQXhFiEYgkA8BkAQxng6Y6AAAAAElFTkSuQmCC",
-    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAV1BMVEX///8AAABwcHDY2NjFxcW6urrk5OTb29vPz8/k5OSjo6Pb29vU1NSAgIB/f3/Nzc3q6urZ2dnx8fHc3Nynp6fBwcHd3d1hYWGdnZ1mZmY6OjrQzBPWAAAAHklEQVQY02NgQAOMMFAAQDA0MDCgY0BjgB8jHAAAJKwAOYHqTGsAAAAASUVORK5CYII=",
+    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "image": "https://picsum.photos/id/110/400/250",
+    "text": "Laupäevane lõõgastus mere ääres 🌊",
     "likeCount": 34,
     "timeCreated": "2025-10-10T21:15:00Z"
   }
