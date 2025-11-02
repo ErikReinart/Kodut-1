@@ -63,17 +63,18 @@ function createPost(post) {
   if (post.text && post.text.trim() !== "") {
     textP.textContent = post.text;
   }
-
-  const likesP = document.createElement("p");
-  likesP.textContent = `❤️ ${post.likeCount} meeldimist`;
+  // inferior likes display method
+  // const likesP = document.createElement("p");
+  // likesP.textContent = `❤️ ${post.likeCount} meeldimist`;
 
   const likeDiv = document.createElement("div");
   likeDiv.className = "like";
   const btn = document.createElement("button");
-  btn.textContent = "👍";
-  likeDiv.appendChild(btn);
+  btn.textContent = `👍 ${post.likeCount}`;
 
-  postDiv.append(header, imgDiv, textP,likesP, likeDiv);
+    likeDiv.appendChild(btn);
+
+  postDiv.append(header, imgDiv, textP, likeDiv);
   return postDiv;
 }
 
