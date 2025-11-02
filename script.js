@@ -5,7 +5,7 @@ function dropdownMenu() {
 
 }
 const LOCAL_JSON_URL = "example.json";
-const REMOTE_JSON_URL = "https://www.npoint.io/docs/ceb07bdd51bbfee906db"; 
+const REMOTE_JSON_URL = "https://api.npoint.io/ceb07bdd51bbfee906db"; 
 const USE_REMOTE = true; 
 // Date
 function formatDate(isoString) {
@@ -21,10 +21,8 @@ function formatDate(isoString) {
 
 // Fetch-fuction
 async function fetchPosts() {
-  if (USE_REMOTE) {
-  }
- 
-    const response = await fetch(LOCAL_JSON_URL);
+  const url = USE_REMOTE ? REMOTE_JSON_URL : LOCAL_JSON_URL;
+  const response = await fetch(url);
   if (!response.ok) throw new Error("Local fetch failed");
   return await response.json();
 }
@@ -84,4 +82,6 @@ async function renderFeed() {
 }
 
 renderFeed();
+renderFeed();
+
 
