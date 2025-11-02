@@ -1,73 +1,78 @@
 [
   {
     "owner": "Erik Reinart",
-    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
-    "image": "https://picsum.photos/id/1015/800/450",
-    "likeCount": 25,
+    "ownerProfilePicture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAAAVVb0fAAAARUlEQVQokWP4////fwY8gBEIxsDAgDEhIMgBxKQIMRCDmU0hglEDMcDYkCE5GCqCQGgkAyKQXhFiEYgkA8BkAQxng6Y6AAAAAElFTkSuQmCC",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAV1BMVEX///8AAABwcHDY2NjFxcW6urrk5OTb29vPz8/k5OSjo6Pb29vU1NSAgIB/f3/Nzc3q6urZ2dnx8fHc3Nynp6fBwcHd3d1hYWGdnZ1mZmY6OjrQzBPWAAAAHklEQVQY02NgQAOMMFAAQDA0MDCgY0BjgB8jHAAAJKwAOYHqTGsAAAAASUVORK5CYII=",
+    "text": "Sügisene Tartu!",
+    "likeCount": 12,
     "timeCreated": "2025-10-01T08:30:00Z"
   },
   {
     "owner": "Mia Mets",
-    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/219/219969.png",
-    "image": "https://picsum.photos/id/1025/800/450",
-    "likeCount": 14,
+    "ownerProfilePicture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAAAVVb0fAAAARUlEQVQokWP4////fwY8gBEIxsDAgDEhIMgBxKQIMRCDmU0hglEDMcDYkCE5GCqCQGgkAyKQXhFiEYgkA8BkAQxng6Y6AAAAAElFTkSuQmCC",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAARVBMVEX////MzMyoqKj4+Pi4uLi6urqtra2hoaGUlJTY2NjT09O2trbKysrDw8PZ2dmRkZFzc3O0tLSXl5evr6/CwsL19fXZ2dnGkB6DAAAAH0lEQVQY02NgQAKMBoZGBkYwYGBiYwYQZ6GAjUwAACGgAARfFSGNQAAAABJRU5ErkJggg==",
+    "text": "Kas keegi teab, mis kell seminar algab?",
+    "likeCount": 8,
     "timeCreated": "2025-10-02T10:10:00Z"
   },
   {
     "owner": "Karl Kask",
-    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/847/847969.png",
-    "image": "https://picsum.photos/id/1035/800/450",
-    "likeCount": 31,
+    "ownerProfilePicture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAAAVVb0fAAAARUlEQVQokWP4////fwY8gBEIxsDAgDEhIMgBxKQIMRCDmU0hglEDMcDYkCE5GCqCQGgkAyKQXhFiEYgkA8BkAQxng6Y6AAAAAElFTkSuQmCC",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAOVBMVEX////MzMzk5OT39/fFxcWjo6OAgIB5eXnU1NTR0dHOzs7Y2NhuamqEhIS4uLiioqLe3t7Yc3VDAAAAIUlEQVQY02NgQAKMBgYGBhAwMDIwMDDgYoAYjEMgAACXgAAjIkl1bAAAAABJRU5ErkJggg==",
+    "likeCount": 16,
     "timeCreated": "2025-10-03T11:15:00Z"
   },
   {
     "owner": "Liis Lill",
-    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/194/194938.png",
-    "image": "https://picsum.photos/id/1045/800/450",
-    "likeCount": 9,
+    "ownerProfilePicture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAAAVVb0fAAAARUlEQVQokWP4////fwY8gBEIxsDAgDEhIMgBxKQIMRCDmU0hglEDMcDYkCE5GCqCQGgkAyKQXhFiEYgkA8BkAQxng6Y6AAAAAElFTkSuQmCC",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAQlBMVEX////MzMzy8vL39/fb29vQ0NC+vr6Tk5OLi4uYmJjCwsLr6+uoqKiysrJdXV2WlpbS0tKRkZGIiIh4eHiCgAxeAAAAG0lEQVQY02NgQAKMBkYGBgYGhjAwYGAwAAD1AAAn6AfoCAAAAABJRU5ErkJggg==",
+    "text": "Lõpuks kodutöö tehtud!",
+    "likeCount": 5,
     "timeCreated": "2025-10-04T15:22:00Z"
   },
   {
-    "owner": "Tarmo Tam",
-    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/236/236831.png",
-    "image": "https://picsum.photos/id/1055/800/450",
-    "likeCount": 18,
+    "owner": "Tarmo Tamm",
+    "ownerProfilePicture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAAAVVb0fAAAARUlEQVQokWP4////fwY8gBEIxsDAgDEhIMgBxKQIMRCDmU0hglEDMcDYkCE5GCqCQGgkAyKQXhFiEYgkA8BkAQxng6Y6AAAAAElFTkSuQmCC",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAARVBMVEX////MzMyoqKj4+PiYmJi3t7eTk5OdnZ3R0dG2trbBwcHR0dGvr6+goKCUlJS7u7u6urqjo6O4l93xAAAAGUlEQVQY02NgQAKMBgYGBgYGBiYGBgYAwA8AAJULAIcPO4QAAAAASUVORK5CYII=",
+    "text": "Vihmane päev, ideaalne koodimiseks ☕",
+    "likeCount": 22,
     "timeCreated": "2025-10-05T19:40:00Z"
   },
   {
     "owner": "Laura Linn",
-    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/201/201634.png",
-    "image": "https://picsum.photos/id/1065/800/450",
-    "likeCount": 27,
+    "ownerProfilePicture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAAAVVb0fAAAARUlEQVQokWP4////fwY8gBEIxsDAgDEhIMgBxKQIMRCDmU0hglEDMcDYkCE5GCqCQGgkAyKQXhFiEYgkA8BkAQxng6Y6AAAAAElFTkSuQmCC",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAQFBMVEX////MzMyoqKj4+PiAgICFhYW3t7eYmJjS0tLOzs7Y2Ni9vb2Tk5OBgYGHh4eXl5e0tLSjo6OMjIyusgxqAAAAGUlEQVQY02NgQAKMBgYGBgYGhiAwAADGAAAnUwAmCVzCkgAAAABJRU5ErkJggg==",
+    "likeCount": 19,
     "timeCreated": "2025-10-06T09:05:00Z"
   },
   {
     "owner": "Rasmus Rant",
-    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/206/206853.png",
-    "image": "https://picsum.photos/id/1075/800/450",
-    "likeCount": 21,
+    "ownerProfilePicture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAAAVVb0fAAAARUlEQVQokWP4////fwY8gBEIxsDAgDEhIMgBxKQIMRCDmU0hglEDMcDYkCE5GCqCQGgkAyKQXhFiEYgkA8BkAQxng6Y6AAAAAElFTkSuQmCC",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAQFBMVEX////MzMyoqKj4+PiAgICFhYW3t7eYmJjS0tLOzs7Y2Ni9vb2Tk5OBgYGHh4eXl5e0tLSjo6OMjIyusgxqAAAAGUlEQVQY02NgQAKMBgYGBgYGhiAwAADGAAAnUwAmCVzCkgAAAABJRU5ErkJggg==",
+    "text": "Koeraga jalutamine on parim mõttepaus!",
+    "likeCount": 10,
     "timeCreated": "2025-10-07T13:50:00Z"
   },
   {
     "owner": "Ingrid Ilves",
-    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/2922/2922561.png",
-    "image": "https://picsum.photos/id/1085/800/450",
+    "ownerProfilePicture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAAAVVb0fAAAARUlEQVQokWP4////fwY8gBEIxsDAgDEhIMgBxKQIMRCDmU0hglEDMcDYkCE5GCqCQGgkAyKQXhFiEYgkA8BkAQxng6Y6AAAAAElFTkSuQmCC",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAARVBMVEX////MzMyoqKj4+PiYmJi3t7eTk5OdnZ3R0dG2trbBwcHR0dGvr6+goKCUlJS7u7u6urqjo6O4l93xAAAAGUlEQVQY02NgQAKMBgYGBgYGBiYGBgYAwA8AAJULAIcPO4QAAAAASUVORK5CYII=",
+    "text": "Kohv ja kood – ideaalne kombo!",
     "likeCount": 40,
     "timeCreated": "2025-10-08T08:00:00Z"
   },
   {
     "owner": "Marko Mänd",
-    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/4825/4825038.png",
-    "image": "https://picsum.photos/id/1095/800/450",
+    "ownerProfilePicture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAAAVVb0fAAAARUlEQVQokWP4////fwY8gBEIxsDAgDEhIMgBxKQIMRCDmU0hglEDMcDYkCE5GCqCQGgkAyKQXhFiEYgkA8BkAQxng6Y6AAAAAElFTkSuQmCC",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAQlBMVEX////MzMzy8vL39/fb29vQ0NC+vr6Tk5OLi4uYmJjCwsLr6+uoqKiysrJdXV2WlpbS0tKRkZGIiIh4eHiCgAxeAAAAG0lEQVQY02NgQAKMBkYGBgYGhjAwYGAwAAD1AAAn6AfoCAAAAABJRU5ErkJggg==",
     "likeCount": 13,
     "timeCreated": "2025-10-09T12:33:00Z"
   },
   {
     "owner": "Anni Aas",
-    "ownerProfilePicture": "https://cdn-icons-png.flaticon.com/512/4140/4140048.png",
-    "image": "https://picsum.photos/id/1105/800/450",
+    "ownerProfilePicture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAAAVVb0fAAAARUlEQVQokWP4////fwY8gBEIxsDAgDEhIMgBxKQIMRCDmU0hglEDMcDYkCE5GCqCQGgkAyKQXhFiEYgkA8BkAQxng6Y6AAAAAElFTkSuQmCC",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAV1BMVEX///8AAABwcHDY2NjFxcW6urrk5OTb29vPz8/k5OSjo6Pb29vU1NSAgIB/f3/Nzc3q6urZ2dnx8fHc3Nynp6fBwcHd3d1hYWGdnZ1mZmY6OjrQzBPWAAAAHklEQVQY02NgQAOMMFAAQDA0MDCgY0BjgB8jHAAAJKwAOYHqTGsAAAAASUVORK5CYII=",
     "likeCount": 34,
     "timeCreated": "2025-10-10T21:15:00Z"
   }
 ]
-
