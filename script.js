@@ -5,7 +5,7 @@ function dropdownMenu() {
 
 }
 const LOCAL_JSON_URL = "example.json";
-const REMOTE_JSON_URL = "https://www.npoint.io/docs/aa7ab9ef7e9161df12c2"; 
+const REMOTE_JSON_URL = "https://www.npoint.io/docs/ceb07bdd51bbfee906db"; 
 const USE_REMOTE = true; 
 // Date
 function formatDate(isoString) {
@@ -84,3 +84,4 @@ async function renderFeed() {
 }
 
 renderFeed();
+
