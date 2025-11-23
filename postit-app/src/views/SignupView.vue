@@ -1,6 +1,5 @@
 <template>
   <main class="center-box">
-    <div class="signup-box">
       <form class="form" @submit.prevent="onSubmit">
 
          <div class="from-row">
@@ -21,7 +20,6 @@
          <button type="submit">Signup</button>
 
        </form>
-      </div>
      </main>
    </template>
 
