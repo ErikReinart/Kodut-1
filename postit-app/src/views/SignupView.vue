@@ -38,17 +38,17 @@ export default {
       const errors = [];
 
       if (pw.length < 8 || pw.length >= 15)
-        errors.push("Length must be 8–14 characters");
+        return ["Length must be 8–14 characters"];
       if (!/[A-Z]/.test(pw))
-        errors.push("Missing an uppercase character");
+        return ["Missing an uppercase character"];
       if (!/[a-z].*[a-z]/.test(pw))
-        errors.push("Needs at least two lowercase characters");
+        return ["Needs at least two lowercase characters"];
       if (!/[0-9]/.test(pw))
-        errors.push("Missing numeric value");
+        return ["Missing numeric value"];
       if (!/^[A-Z]/.test(pw))
-        errors.push("Must start with uppercase");
+        return ["Must start with uppercase"];
       if (!/_/.test(pw))
-        errors.push('Missing "_" character');
+        return ['Missing "_" character'];
 
       return errors;
     },
@@ -56,7 +56,7 @@ export default {
     onSubmit() {
       this.errors = this.validatePassword(this.password);
 
-      if (this.errors.length === 0) {
+      if (this.errors.length == 0) {
         alert("Signup successful!");
         this.$router.push("/");
       }
