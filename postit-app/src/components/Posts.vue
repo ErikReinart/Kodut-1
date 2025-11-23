@@ -30,7 +30,7 @@
         <button @click="like(post)">{{ post.likeCount }} 👍</button>
       </div>
     </div>
-    <button @click="resetLikesFunc">Reset likes</button>
+    <button class="signup-button" @click="resetLikesFunc">Reset likes</button>
   </main>
 </template>
 
