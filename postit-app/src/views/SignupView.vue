@@ -1,8 +1,9 @@
 <template>
   <main class="center-box">
+    <div class="signup-box">
       <form class="form" @submit.prevent="onSubmit">
 
-         <div class="from-row">
+         <div class="form-row">
             <label>Email</label>
             <input type="email" v-model="email" required />
          </div>
@@ -13,13 +14,13 @@
          </div>
 
          <p v-if="errors.length" style="color:red;">
-           The password is not valid –
-           {{ errors.join(", ") }}
+           The password is not valid – {{errors[0] }}
          </p>
 
          <button type="submit">Signup</button>
 
        </form>
+      </div>
      </main>
    </template>
 
