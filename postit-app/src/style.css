@@ -102,10 +102,11 @@ footer {
   text-align: center;
   padding: 10px;
   margin-top: 10px;
+  margin: 0;
 }
 
 /* --- AddPost & Login Forms --- */
-.center-box {
+/*.center-box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -165,6 +166,61 @@ footer {
 
 .form button:hover {
   background-color: #3060c0;
+}*/
+
+
+/* Signup card container */
+.signup-box {
+  background: #d4e1c5;      
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+/* Form layout */
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Label + input rows */
+.form-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Labels */
+.form-row label {
+  width: 90px;              
+  text-align: left;
+}
+
+/* Inputs */
+.form-row input {
+  width: 200px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Signup button */
+.signup-button {
+  padding: 10px 30px;
+  margin-top: 10px;
+  background-color: #3366cc;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background-color: #2654a3;
 }
 
 /* --- Flexbox for Responsiveness --- */
