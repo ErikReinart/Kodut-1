@@ -14,7 +14,10 @@
          </div>
 
          <p v-if="errors.length" style="color:red;">
-           The password is not valid – {{errors[0] }}
+           The password is not valid – 
+           <ul>
+            <li v-for="error in errors" :key="error">{{ error }}</li>
+           </ul>
          </p>
 
          <button type="submit" class="signup-button">Signup</button>
@@ -39,17 +42,17 @@ export default {
       const errors = [];
 
       if (pw.length < 8 || pw.length >= 15)
-        return ["Length must be 8–14 characters"];
+        errors.push("Length must be 8–14 characters");
       if (!/[A-Z]/.test(pw))
-        return ["Missing an uppercase character"];
+        errors.push("Missing an uppercase character");
       if (!/[a-z].*[a-z]/.test(pw))
-        return ["Needs at least two lowercase characters"];
+        errors.push("Needs at least two lowercase characters");
       if (!/[0-9]/.test(pw))
-        return ["Missing numeric value"];
+        errors.push("Missing numeric value");
       if (!/^[A-Z]/.test(pw))
-        return ["Must start with uppercase"];
+        errors.push("Must start with uppercase");
       if (!/_/.test(pw))
-        return ['Missing "_" character'];
+        errors.push('Missing "_" character');
 
       return errors;
     },
