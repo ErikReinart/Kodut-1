@@ -7,7 +7,7 @@ body {
 /* --- Class Selector --- */
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: #b6b6b6;
   padding: 10px;
