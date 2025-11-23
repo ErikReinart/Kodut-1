@@ -29,8 +29,8 @@
       <div class="like">
         <button @click="like(post)">{{ post.likeCount }} 👍</button>
       </div>
-
     </div>
+    <button @click="resetLikesFunc">Reset likes</button>
   </main>
 </template>
 
@@ -50,6 +50,10 @@ export default {
     like(post) {
       // TODO...
       post.likeCount++;
+    },
+
+    resetLikesFunc() {
+      this.$store.dispatch('resetLikesAct');
     }
   }
 };

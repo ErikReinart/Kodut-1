@@ -9,7 +9,13 @@ const store = createStore({
     },
     mutations: {
         setPosts(state, posts) {
-            state.posts = posts
+            state.posts = posts;
+        },
+        
+        resetLikes(state) {
+            state.posts.forEach(post => {
+                post.likeCount = 0;
+            });
         }
 
     },
@@ -22,6 +28,11 @@ const store = createStore({
             } catch (err) {
                 console.error('Failed to load posts:', err)
             }
+        },
+        resetLikesAct({ commit }) {
+            setTimeout(() => {
+                commit("resetLikes");
+            }, 0)
         }
     }
 }
