@@ -1,27 +1,29 @@
 <template>
   <main class="center-box">
-    <form class="form" @submit.prevent="onSubmit">
+    <div class="signup-box">
+      <form class="form" @submit.prevent="onSubmit">
 
-      <div class="form-row">
-        <label>Email</label>
-        <input type="email" v-model="email" required />
+         <div class="from-row">
+            <label>Email</label>
+            <input type="email" v-model="email" required />
+         </div>
+
+         <div class="form-row">
+            <label>Password</label>
+            <input type="password" v-model="password" required />
+         </div>
+
+         <p v-if="errors.length" style="color:red;">
+           The password is not valid –
+           {{ errors.join(", ") }}
+         </p>
+
+         <button type="submit">Signup</button>
+
+       </form>
       </div>
-
-      <div class="form-row">
-        <label>Password</label>
-        <input type="password" v-model="password" required />
-      </div>
-
-      <p v-if="errors.length" style="color:red;">
-        The password is not valid –
-        {{ errors.join(", ") }}
-      </p>
-
-      <button type="submit">Signup</button>
-
-    </form>
-  </main>
-</template>
+     </main>
+   </template>
 
 <script>
 export default {
