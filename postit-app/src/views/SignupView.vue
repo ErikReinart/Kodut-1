@@ -17,7 +17,7 @@
            The password is not valid – {{errors[0] }}
          </p>
 
-         <button type="submit">Signup</button>
+         <button type="submit" class="signup-button">Signup</button>
 
        </form>
       </div>
