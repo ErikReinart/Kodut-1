@@ -1,7 +1,7 @@
 <template>
   <main class="center-box">
     <div class="signup-box">
-      <form class="form" @submit.prevent="onSubmit">
+      <form class="signup-form" @submit.prevent="onSubmit">
 
          <div class="form-row">
             <label>Email</label>
