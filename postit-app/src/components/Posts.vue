@@ -16,13 +16,20 @@
         <span class="date">{{ formatDate(post.timeCreated) }}</span>
       </div>
 
-      <div class="post-image">
+      <!-- Conditionals for post data -->
+      <div class="post-image" v-if="post.image">
         <img :src="post.image" alt="post image" />
       </div>
+
+      <p v-if="post.text" class="post-text">
+        {{ post.text }}
+      </p>
+
 
       <div class="like">
         <button @click="like(post)">{{ post.likeCount }} 👍</button>
       </div>
+
     </div>
   </main>
 </template>
