@@ -41,6 +41,13 @@ body {
   border-radius: 50%;
 }
 
+.profile:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.2s;
+  filter: brightness(1.2);
+}
+
 .feed {
   display: flex;
   flex-direction: column;
