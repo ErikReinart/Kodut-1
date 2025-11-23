@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import HeaderBar from './components/HeaderBar.vue';
-import FooterBar from './components/FooterBar.vue';
+import HeaderBar from '/components/HeaderBar.vue';
+import FooterBar from '/components/FooterBar.vue';
 
 export default {
   components: { HeaderBar, FooterBar }
