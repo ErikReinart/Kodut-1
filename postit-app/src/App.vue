@@ -1,8 +1,10 @@
 <template>
-  <HeaderBar />
-  <router-view />
-  <Posts />
-  <FooterBar />
+  <div class="app-container">
+    <HeaderBar />
+    <router-view />
+    <Posts v-if="showPosts" />
+    <FooterBar />
+  </div>
 </template>
 
 <script>
@@ -13,6 +15,13 @@ import Posts from "./components/Posts.vue";
 export default {
 
   components: { HeaderBar, Posts, FooterBar },
+
+  computed: {
+    showPosts() {
+      // hide posts on signup page (BAD fix!!)
+      return this.$route && this.$route.path !== '/signup';
+    }
+  },
 
   created() {
     this.$store.dispatch('loadPosts')
