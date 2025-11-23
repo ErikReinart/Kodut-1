@@ -105,7 +105,7 @@ footer {
 }
 
 /* --- AddPost & Login Forms --- */
-/*.center-box {
+.center-box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -165,7 +165,7 @@ footer {
 
 .form button:hover {
   background-color: #3060c0;
-}*/
+}
 
 
 /* Signup card container */
