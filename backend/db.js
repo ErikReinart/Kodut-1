@@ -1,5 +1,6 @@
 import pkg from 'pg'
 import dotenv from 'dotenv'
+
 dotenv.config()
 
 const { Pool } = pkg
@@ -13,6 +14,7 @@ export const pool = new Pool({
 })
 
 export async function initDB() {
+  // users table
   await pool.query(`
     CREATE TABLE IF NOT EXISTS users (
       id SERIAL PRIMARY KEY,
@@ -21,15 +23,16 @@ export async function initDB() {
       created_at TIMESTAMP DEFAULT NOW()
     )
   `)
-  console.log('users table ready')
+
+  // posts table
+  await pool.query(`
+    CREATE TABLE IF NOT EXISTS posts (
+      id SERIAL PRIMARY KEY,
+      body TEXT NOT NULL,
+      created_at TIMESTAMP DEFAULT NOW(),
+      user_email TEXT NOT NULL
+    )
+  `)
+
+  console.log('Database ready')
 }
-
-await pool.query(`
-  CREATE TABLE IF NOT EXISTS posts (
-    id SERIAL PRIMARY KEY,
-    body TEXT NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    user_email TEXT NOT NULL
-  )
-`)
-
