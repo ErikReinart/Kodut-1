@@ -4,6 +4,8 @@
         class="post"
         v-for="post in posts"
         :key="post.timeCreated"
+        @click="goToPost(post)"
+        style="cursor:pointer;"
     >
       <div class="post-header">
         <img
@@ -31,6 +33,8 @@
       </div>
     </div>
     <button class="signup-button" @click="resetLikesFunc">Reset likes</button>
+    <button @click="$router.push('/add')">Add Post</button>
+    <button @click="deleteAllPosts">Delete All Posts</button>
   </main>
 </template>
 
@@ -54,7 +58,27 @@ export default {
 
     resetLikesFunc() {
       this.$store.dispatch('resetLikesAct');
+    },
+
+    goToPost(post) {
+      //redirecting to /post/:id page
+      this.$router.push({ path: `/post/${post.id}` });
+    },
+
+    async deleteAllPosts() {
+      const token = localStorage.getItem('token');
+      if (!token) return alert('Login required');
+      try {
+        const res = await fetch('http://localhost:3000/posts', {
+          method: 'DELETE',
+          headers: { Authorization: `Bearer ${token}` }
+        });
+      if (!res.ok) throw new Error("Delete failed");
+      await this.$store.dispatch('loadPosts');
+      } catch(err) {
+        alert("Delete failed: " + err.message);
+      }
     }
   }
-};
+}
 </script>

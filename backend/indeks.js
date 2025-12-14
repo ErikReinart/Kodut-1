@@ -87,3 +87,61 @@ app.post('/posts', auth, async (req, res) => {
 
   res.json({ success: true })
 })
+
+// home page
+app.get('/posts', auth, async (req, res) => {
+  try {
+    const result = await pool.query(`
+        SELECT p.body, p.created_at, p.user_email, u.email 
+        FROM posts p
+        JOIN users u on p.user_email = u.email
+        ORDER BY p.created_at DESC
+      `);
+  
+    // format posts to match frontend
+    const posts = result.rows.map(post => ({
+      id: post.id,
+      owner: post.email,
+      ownerProfilePicture: "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+      text: post.body,
+      timeCreated: post.created_at,
+      likeCount: 0,
+      image: null
+    }));
+
+    res.json(posts); // Returning the array of posts
+  } catch (err) {
+    console.error('Failed to fetch posts: ' , err);
+    res.status(500).json({ error: 'Internal server error'})
+  }
+});
+
+//deleting all posts
+app.delete('/posts', auth, async (req, res) => {
+  try {
+    await pool.query('DELETE FROM posts');
+
+    const result = await pool.query(`
+        SELECT p.body, p.created_at, p.user_email, u.email 
+        FROM posts p
+        JOIN users u on p.user_email = u.email
+        ORDER BY p.created_at DESC
+      `);
+
+    // format posts to match frontend
+    const posts = result.rows.map(post => ({
+      id: post.id,
+      owner: post.email,
+      ownerProfilePicture: "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+      text: post.body,
+      timeCreated: post.created_at,
+      likeCount: 0,
+      image: null
+    }));
+
+    res.json({ success: true, posts });
+  } catch (err) {
+    console.error('Failed to delete posts:', err);
+    res.status(500).json({ error: 'Failed to delete posts' });
+  }
+});

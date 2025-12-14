@@ -2,7 +2,6 @@
   <div class="app-container">
     <HeaderBar />
     <router-view />
-    <Posts v-if="showPosts" />
     <FooterBar />
   </div>
 </template>
