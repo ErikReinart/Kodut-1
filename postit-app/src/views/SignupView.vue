@@ -57,14 +57,40 @@ export default {
       return errors;
     },
 
-    onSubmit() {
+    async onSubmit() {
       this.errors = this.validatePassword(this.password);
+if (this.errors.length !== 0) return;
 
-      if (this.errors.length == 0) {
-        alert("Signup successful!");
-        this.$router.push("/");
-      }
+  try {
+    //SEND credentials to backend
+    const response = await fetch("http://localhost:3000/auth/signup", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        email: this.email,
+        password: this.password
+      })
+    });
+
+    const data = await response.json();
+
+    if (!response.ok) {
+      alert(data.error || "Signup failed");
+      return;
     }
+
+    //Store JWT returned by backend
+    localStorage.setItem("token", data.token);
+
+    //redirect to protected home
+    this.$router.push("/");
+
+  } catch (err) {
+    alert("Server error");
+  }
+}
   }
 };
 </script>

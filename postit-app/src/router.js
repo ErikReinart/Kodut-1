@@ -18,9 +18,10 @@ const routes = [
   { path: '/post/:id', component: PostView, meta: { requiresAuth: true } }
 ]
 
-export default createRouter({
+const router = createRouter({
   history: createWebHistory(),
-  routes})
+  routes
+})
 
 router.beforeEach((to) => {
   const token = localStorage.getItem('token')
